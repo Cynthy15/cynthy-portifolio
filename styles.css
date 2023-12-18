@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap');
+body{
+    background-color:#fff;
+}
+
+.home-section{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.bio{
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+.bio-image{   
+    margin-right: 100px;
+}
+
+nav{
+    margin: -10px -7px 100px -7px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+}
+ul{
+    margin-right: 100px;
+    display: flex;
+}
+
+li{
+   list-style: none;   
+   padding: 15px;
+}
+
+nav h1{
+    color:#00008B;
+margin-left: 100px;
+font-family: 'Inknut Antiqua', serif;
+}
+span{
+font-weight: bold;
+}
+.bio h2{
+    font-family: 'Inknut Antiqua', serif;
+    color: black;
+}
+
+#about{
+    width: 100%;
+    margin-right: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#about-image{
+    display: flex;
+    position: relative;
+    margin-left: 100px; 
+    border-radius: 50%;
+}
+h3{
+    color:#00008B;
+    font-size: 32px;
+    font-family: 'Istok Web', sans-serif;
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 100px; 
+    justify-content: space-between;
+
+}
+
+.data{
+    background-color: #D9D9D9;
+
+}
+
+i{
+    color: #0606d7;
+}
