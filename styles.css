@@ -48,18 +48,17 @@ font-weight: bold;
     color: black;
 }
 
-#about{
-    width: 100%;
-    margin-right: 100px;
+.about-section {
+     width: 100%;
+    display: flex;    
     justify-content: space-between;
-    display: flex;
+   margin-right: 100px;
 }
 
-#about-image{
-    display: flex;
+.about-image{
     position: relative;
     margin-left: 100px; 
-    border-radius: 50%;
+    border-radius: 50%;  
 }
 h3{
     color:#00008B;
@@ -71,12 +70,39 @@ h3{
     justify-content: space-between;
 
 }
-
-.data{
-    background-color: #D9D9D9;
-
+.about-me{
+    font-size: 20px;
+margin-right: 100px;
 }
-
+.experience{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 100px;
+}
+.DATA{
+    background-color: #D9D9D9;
+    display: flexbox;
+    width: 250px;
+}
+.DATABASE{
+    background-color: #D9D9D9;
+    display:flexbox;
+    width: 250px;
+}
+.web{
+    background-color: #D9D9D9;
+    display: flexbox;
+    width: 250px;
+}
+.skillset{
+    justify-content: space-between;
+    display: flex;
+}
+.contact-me{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 100px;
+}
 i{
     color: #0606d7;
 }
